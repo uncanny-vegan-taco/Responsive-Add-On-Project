@@ -212,4 +212,13 @@ footer a {
   .embed {
     aspect-ratio: 16/9;
   }
+  main {
+    margin: 30px;
+  }
+  aside {
+    padding: 10px;
+  }
+  .gallery {
+    margin: 20px;
+  }
 }
