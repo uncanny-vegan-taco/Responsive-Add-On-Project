@@ -59,10 +59,10 @@ footer {
 main img {
   width: 100%;
 }
-main h3 {
+h3 {
   font-size: 30px;
 }
-main h4 {
+h4 {
   font-size: 20px;
 }
 main h3,
@@ -101,16 +101,16 @@ aside {
   text-align: center;
   padding: 100px;
 }
-aside h2 {
+h2 {
   font-size: 16px;
 }
-aside h3 {
+h3 {
   font-size: 40px;
 }
-aside h4 {
+h4 {
   font-size: 24px;
 }
-aside h5 {
+h5 {
   font-size: 13px;
 }
 .card {
@@ -121,12 +121,16 @@ aside h5 {
 .card-body {
   padding: 30px;
 }
-.card-header .grid {
+.card-header.grid {
   grid-gap: 0px;
 }
 .img-responsive {
   display: block;
   width: 100%;
+}
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
 }
 .btn {
   display: block;
@@ -144,6 +148,10 @@ aside h5 {
 .btn a {
   color: white;
   text-decoration: none;
+}
+.gallery {
+  margin: 60px;
+  text-align: center;
 }
 footer h3 {
   font-size: 20px;
@@ -177,5 +185,11 @@ footer a {
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 20px;
+  }
+  .card-header img {
+    display: none;
+  }
+  .embed {
+    aspect-ratio: 16/9;
   }
 }
